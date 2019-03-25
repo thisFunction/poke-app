@@ -1,0 +1,6 @@
+No model was found for 'pokemon' - create a model and define what properties you need 
+
+
+returnging errors in ember tests
+
+why is model defined in singular
