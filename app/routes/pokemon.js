@@ -1,7 +1,7 @@
 import Route from '@ember/routing/route';
 
 export default Route.extend({
-    async model () {
-        return this.store.findAll('pokemon');
+    model () {
+        return this.store.queryRecord('pokemon', {offset: 0, limit: 20});
     }
 });
