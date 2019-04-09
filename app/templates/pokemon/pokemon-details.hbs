@@ -1,2 +1,11 @@
-<h2>yo</h2>
-{{log model}}
+<div class="pokemon-detail">
+    name: {{model.name}} <br>
+    height: {{model.height}} <br>
+    weight: {{model.weight}} <br>
+
+    <img src={{model.sprites.front_default}} alt="{{model.name}} front image">
+    <img src={{model.sprites.front_shiny}} alt="{{model.name}} front image">
+    <img src={{model.sprites.back_default}} alt="{{model.name}} back image">
+    <img src={{model.sprites.back_shiny}} alt="{{model.name}} back image">
+</div>
+

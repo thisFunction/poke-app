@@ -1,10 +1,13 @@
-<h1>Pokemon route</h1>
-<p>Total Pokemon available: {{model.count}}</p>
+<div class="pokemon-list">
+  <h1>Pokemon route</h1>
+  <p>Total Pokemon available: {{model.count}}</p>
 
-<p>List of available pokemon</p>
-<ul>
-  {{#each model.results as |result|}}
-    <li>{{#link-to "pokemon.pokemon-details" (extract-id-from-url result.url)}}{{result.name}}{{/link-to}}</li>
-  {{/each}}
-</ul>
+  <p>List of available pokemon</p>
+  <ul>
+    {{#each model.results as |result|}}
+      <li>{{#link-to "pokemon.pokemon-details" (extract-id-from-url result.url)}}{{result.name}}{{/link-to}}</li>
+    {{/each}}
+  </ul>
+</div>
 {{outlet}}
+

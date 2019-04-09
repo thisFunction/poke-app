@@ -1,8 +1,6 @@
-import DS from 'ember-data';
+import ApplicationAdapter from './application';
 
-export default DS.RESTAdapter.extend({
-    host: 'https://pokeapi.co',
-    namespace: 'api/v2',
+export default ApplicationAdapter.extend({
     pathForType(modelName) {
         return modelName;
     }
