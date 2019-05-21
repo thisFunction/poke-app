@@ -1,4 +1,0 @@
-
-returnging errors in ember tests
-
-why is model defined in singular
