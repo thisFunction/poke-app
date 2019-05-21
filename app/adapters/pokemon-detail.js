@@ -1,6 +1,6 @@
-import ApplicationAdapter from './application';
+import Pokemon from './pokemon';
 
-export default ApplicationAdapter.extend({
+export default Pokemon.extend({
     buildURL (modelName, id) {
         return `${this.host}/${this.namespace}/pokemon/${id}`;
     },

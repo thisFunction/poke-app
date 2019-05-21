@@ -8,6 +8,10 @@
       <li>{{#link-to "pokemon.pokemon-details" (extract-id-from-url result.url)}}{{result.name}}{{/link-to}}</li>
     {{/each}}
   </ul>
+
+  <button {{action "previousPage"}} disabled={{previousPageButtonIsDisabled}} aria-label="go to previous page">previous</button>
+  <button {{action "nextPage"}} disabled={{nextPageButtonIsDisabled}} aria-label="go to next page">next</button>
+
 </div>
 {{outlet}}
 
