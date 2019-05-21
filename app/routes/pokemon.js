@@ -7,8 +7,7 @@ export default Route.extend({
       const offset = params.offset ? params.offset : 0;
       
       return this.store.queryRecord('pokemon', {
-        offset, 
-        limit: 20
+        offset
       });
     }
 });
