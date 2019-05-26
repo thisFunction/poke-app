@@ -1,10 +1,34 @@
 # poke-app
+This repo contains code that I wrote for this article:
+(https://medium.com/@skocadam/ember-data-turn-frustration-into-celebration-52891fdf3df8)
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+You can see the [deployed app on heroku](https://ember-data-poke-app.herokuapp.com/pokemon)
 
-## Prerequisites
 
+## Installation
+* `git clone <repository-url>` this repository
+* `cd poke-app`
+* `npm install`
+
+
+## Running / Development
+* `ember serve`
+* Visit your app at [http://localhost:4200/pokemon](http://localhost:4200/pokemon).
+* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
+
+
+### Running Tests
+* `ember test`
+* `ember test --server`
+
+
+### Linting
+* `npm run lint:hbs`
+* `npm run lint:js`
+* `npm run lint:js -- --fix`
+
+
+## Troubleshooting
 You will need the following things properly installed on your computer.
 
 * [Git](https://git-scm.com/)
@@ -12,44 +36,8 @@ You will need the following things properly installed on your computer.
 * [Ember CLI](https://ember-cli.com/)
 * [Google Chrome](https://google.com/chrome/)
 
-## Installation
-
-* `git clone <repository-url>` this repository
-* `cd poke-app`
-* `npm install`
-
-## Running / Development
-
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Linting
-
-* `npm run lint:hbs`
-* `npm run lint:js`
-* `npm run lint:js -- --fix`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
 
 ## Further Reading / Useful Links
-
 * [ember.js](https://emberjs.com/)
 * [ember-cli](https://ember-cli.com/)
 * Development Browser Extensions
