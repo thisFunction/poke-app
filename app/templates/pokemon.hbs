@@ -1,4 +1,4 @@
-<div class="pokemon-list">
+<section class="pokemon-list">
   <h1>Pokemon route</h1>
   <p>Total Pokemon available: {{model.count}}</p>
 
@@ -12,6 +12,6 @@
   <button {{action "previousPage"}} disabled={{previousPageButtonIsDisabled}} aria-label="go to previous page">previous</button>
   <button {{action "nextPage"}} disabled={{nextPageButtonIsDisabled}} aria-label="go to next page">next</button>
 
-</div>
+</section>
 {{outlet}}
 

@@ -2,7 +2,24 @@ html {
     font-family: 'Oswald', sans-serif;
 }
 
+body {
+    padding: 1em;
+}
+
+body > div.ember-view {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    padding-left: 1em;
+}
+
 p {
     font-family: 'EB Garamond', serif;
 }
 
+.pokemon-list {
+    width: 300px;
+}
