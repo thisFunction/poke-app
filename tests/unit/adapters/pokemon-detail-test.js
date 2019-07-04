@@ -5,8 +5,8 @@ module('Unit | Adapter | pokemon detail', function(hooks) {
   setupTest(hooks);
 
   // Replace this with your real tests.
-  test('it exists', function(assert) {
+  test('it returns correct url', function(assert) {
     let adapter = this.owner.lookup('adapter:pokemon-detail');
-    assert.ok(adapter);
+    assert.equal(adapter.buildURL(null, 4), 'https://pokeapi.co/api/v2/pokemon/4');
   });
 });
