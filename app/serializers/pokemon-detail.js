@@ -5,6 +5,7 @@ export default DS.RESTSerializer.extend({
     payload = {
       "pokemon-detail": payload
     };
+
     return this._super(store, primaryModelClass, payload, id, requestType);
   }
 });

@@ -6,15 +6,18 @@ You can see the [deployed app on heroku](https://ember-data-poke-app.herokuapp.c
 
 
 ## Installation
-* `git clone <repository-url>` this repository
+* `git clone https://github.com/thisFunction/poke-app.git` this repository
 * `cd poke-app`
 * `npm install`
 
 
 ## Running / Development
 * `ember serve`
-* Visit your app at [http://localhost:4200/pokemon](http://localhost:4200/pokemon).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
+
+
+## Viewing App
+* Visit the app at [http://localhost:4200/pokemon](http://localhost:4200/pokemon).
+* Visit the tests at [http://localhost:4200/tests](http://localhost:4200/tests).
 
 
 ### Running Tests
