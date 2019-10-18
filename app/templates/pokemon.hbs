@@ -9,9 +9,13 @@
     {{/each}}
   </ul>
 
-  <button {{action "previousPage"}} disabled={{previousPageButtonIsDisabled}} aria-label="go to previous page">previous</button>
-  <button {{action "nextPage"}} disabled={{nextPageButtonIsDisabled}} aria-label="go to next page">next</button>
-
+  {{navigation-component
+    previousPage=(action "previousPage")
+    nextPage=(action "nextPage")
+    offset=offset
+    itemsPerPage=itemsPerPage
+    count=model.count
+  }}
 </section>
 {{outlet}}
 

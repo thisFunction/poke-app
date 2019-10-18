@@ -11,7 +11,7 @@ export default Factory.extend({
 
     results(i) {
         let pokemonCreated = 1;
-        let pokemonresults = [];
+        let pokemonResults = [];
 
         while(pokemonCreated <= pokemonPerPage) {
             const pokemonId = (i * 10) + pokemonCreated;
@@ -20,10 +20,10 @@ export default Factory.extend({
                 name:  `${faker.random.word()}${randomEnding}`,
                 url: `https://pokeapi.co/api/v2/pokemon/${pokemonId}`
             }
-            pokemonresults.push(pokemonObject);
+            pokemonResults.push(pokemonObject);
             pokemonCreated += 1;
         }
-        return pokemonresults;
+        return pokemonResults;
     },
 
     afterCreate(post, server) {
