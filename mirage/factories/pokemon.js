@@ -16,7 +16,7 @@ export default Factory.extend({
         while(pokemonCreated <= pokemonPerPage) {
             const pokemonId = (i * 10) + pokemonCreated;
 
-            let pokemonObject = {
+            const pokemonObject = {
                 name:  `${faker.random.word()}${randomEnding}`,
                 url: `https://pokeapi.co/api/v2/pokemon/${pokemonId}`
             }

@@ -4,10 +4,10 @@ import faker from 'faker';
 const randomEnding = faker.random.arrayElement(["mon","chu","saur", "lett", "ite", "lax"]);
 
 export default Factory.extend({
-    name() {  
+    name() {
         return `${faker.random.word()}${randomEnding}`;
     },
-    
+
     height() {
         return faker.random.number();
     },
@@ -18,10 +18,10 @@ export default Factory.extend({
 
     sprites() {
         return {
-            back_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/9.png",
-            back_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/9.png",
-            front_default: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
-            front_shiny: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/9.png",
+            back_default: "https://via.placeholder.com/100",
+            back_shiny: "https://via.placeholder.com/100",
+            front_default: "https://via.placeholder.com/100",
+            front_shiny: "https://via.placeholder.com/100",
         }
      },
 });
