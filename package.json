@@ -18,7 +18,7 @@
     "test": "ember test"
   },
   "devDependencies": {
-    "@ember/optional-features": "^1.0.0",
+    "@ember/optional-features": "^1.1.0",
     "babel-eslint": "^10.0.3",
     "broccoli-asset-rev": "^2.7.0",
     "ember-cli-app-version": "^3.2.0",
